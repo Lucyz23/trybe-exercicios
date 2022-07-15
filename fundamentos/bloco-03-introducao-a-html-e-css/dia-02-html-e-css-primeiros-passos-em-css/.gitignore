@@ -19,7 +19,7 @@
 # Ignora todo o histórico local de arquivos
 .história
 .ionida
-
+.DS_Store
 # Suporte para escopo do snippet de projeto
 .vscode/*.code-snippets
 
