@@ -1,0 +1,85 @@
+<style>#hino {
+    width: 90%;
+}
+
+#yuki {
+    width: 80%;
+}
+
+#Joro {
+    width: 70%;
+}
+
+#okatsu {
+    width: 80%;
+}
+
+#maria{
+    width: 70%;
+}
+
+h1 {
+    color: red;
+    font: size 60px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+h2 {
+    color: aqua;
+    font: size 60px;
+    font-family: fantasy;
+    font-size: auto;
+}
+
+h3 {
+    color: orange;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+h4 {
+    color: #00BFFF;
+    font-family: fantasy;
+    font-size: 30px;
+
+}
+
+#text {
+
+    overflow: auto;
+    color: white;
+}
+
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/509/332/63/video-game-nioh-red-samurai-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+aside {
+    color: rgb(232, 132, 211);
+    font-size: 25px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: inline-start;
+}
+
+a:hover {
+    background-color: red;
+}
+
+li {
+    color: azure;
+}
+
+a {
+    color: aliceblue;
+}
+
+h5{
+    color: yellow;
+    font-family: fantasy;
+    font-size: 30px;
+    
+}
