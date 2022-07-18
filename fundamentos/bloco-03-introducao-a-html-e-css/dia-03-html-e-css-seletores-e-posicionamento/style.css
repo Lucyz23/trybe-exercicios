@@ -69,6 +69,10 @@ a:hover {
     background-color: red;
 }
 
+a:active{
+    color: black;
+}
+
 li {
     color: azure;
 }
