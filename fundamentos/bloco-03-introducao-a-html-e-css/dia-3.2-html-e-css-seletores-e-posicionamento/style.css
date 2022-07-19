@@ -1,0 +1,29 @@
+#red{
+    color: red;
+    font-size:medium;
+}
+
+#purple{
+    color: purple;
+    font-size: 30px;
+    
+}
+
+#green{
+    color: aquamarine;
+    font-size: 40px;
+}
+
+#black{
+    color: rgb(58, 55, 55);
+    font-size:larger;
+}
+
+#beige{
+    color: rgba(205, 205, 149, 0.631);
+    font-size: medium;
+}
+
+h3{
+    font-style: italic;
+}
