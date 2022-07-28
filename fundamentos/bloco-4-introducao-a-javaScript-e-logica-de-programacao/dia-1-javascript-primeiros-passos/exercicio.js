@@ -74,3 +74,10 @@ if (custoDoProduto >= 0 && ValorDeVenda >= 0 ) {
 
 
 
+function splitSentence() {
+    stringExemplo = " go trybe";
+    resultado = stringExemplo.split (" ");
+    
+    console.log(resultado);
+    }
+    
