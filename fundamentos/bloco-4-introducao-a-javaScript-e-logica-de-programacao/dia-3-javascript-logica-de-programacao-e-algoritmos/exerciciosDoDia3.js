@@ -52,3 +52,5 @@ for(let number = 2; number <= 50; number += 1){
     }
 }
  console.log (maiorNumeroPrimo);
+
+ 
