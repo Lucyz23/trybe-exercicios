@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="titulo">TrybeTrip</h1>
+    <form action="" method="GET" enctype="multipart/form-data">
+        <label for="input_nome">Nome</label>
+        <input type="text" placeholder="Digite seu nome" required class="" name="texto" id="input_nome" minlength="10" maxlength="40">
+        <br><br>
+        <label for="input_email">E-mail</label>
+        <input type="email" placeholder="Digite seu e-mail" required class="" name="texto" id="input_email" required
+            autocomplete="off" autofocus minlength="10" maxlength="50">
+            <br>
+        <p>Destino Preferido:</p>
+        <label for="destino">
+            <input type="radio" id="destino" name="destino-favorito" value="city">Cidade
+            <label for="destino2">
+                <input type="radio" id="destino2" name="destino-favorito" value="camp">Campo
+                <label for="destino3">
+                    <input type="radio" id="destino3" name="destino-favorito" value="beach">Praia
+                    <label for="destino4">
+                        <input type="radio" id="destino4" name="destino-favorito" value="mountain">Montanha
+
+                    </label>
+                    <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+                    <textarea name="resposta" id="respost" cols="50" rows="8" maxlength="500"></textarea>
+                    <!-- <label for="input_passwuord">Senha</label>
+    <input type="password" placeholder="Digite sua senha" name="senha" id="input_password" required> -->
+<br>
+                    <label for="lem">
+                        <input type="checkbox" value="lembret" name="lembrete" id="lem">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                    </label><br>
+                    <label for="concord">
+                        <input type="checkbox" value="con" name="lembrete" id="concord">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                    </label>
+                    <br><br>
+                    <button type="submit" id="buttonSubmit">Enviar</button>
+                    <button type="reset" id="clear">Apagar</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
