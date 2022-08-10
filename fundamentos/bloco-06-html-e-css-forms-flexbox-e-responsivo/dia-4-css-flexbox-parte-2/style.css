@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -94,3 +95,100 @@ body {
   margin: 10px 0;
   text-align: justify;
 }
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+  }
+  
+  body {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .header-container {
+    background-color: #5C687C;
+    display: flex;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 268px;  /*Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px*/
+    
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-basis: 500px;
+    order: 1; /*Adicione uma propriedade Flexbox que modifique a ordem em que a logomarca e os itens do menu aparecem na tela.*/
+    flex: 1 auto; /*Adicione uma propriedade Flexbox que faça o container do menu crescer, quando houver espaço disponível.*/
+    align-self: center;
+  }
+  
+  .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 700px;
+    flex-grow: 10;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card-container div {
+    align-items: center;
+    background-color: #5C687C;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-basis: 350px;
+    align-self: center;
+    flex-grow: 1;
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+  }
+>>>>>>> 46f7c9aa55e2b7e50b5914d92a3d18e86280875b
