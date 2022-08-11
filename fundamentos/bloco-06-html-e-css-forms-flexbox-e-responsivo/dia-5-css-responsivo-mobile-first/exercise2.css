@@ -6,10 +6,6 @@ html {
     box-sizing: inherit;
   }
 
-  .flex-container{
-    display: flex;
-  }
-
   #alice{ font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -35,8 +31,24 @@ html {
     background-size: cover;
 }
 
-.cabecalho{
-    color: black;
+.cabecalho ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho ul li {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+.cabecalho li a{
+    color: rgb(216, 193, 193);
+    padding: 5px 10px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    
 }
 
 .aside-one{
