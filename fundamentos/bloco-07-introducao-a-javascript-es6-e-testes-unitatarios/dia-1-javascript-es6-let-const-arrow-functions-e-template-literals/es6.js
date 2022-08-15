@@ -46,3 +46,63 @@ testingScope(true);
   }; const sortedArray = sortOddsAndEvens()
 
   console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 😉
+
+  //PARTE II
+
+  //Crie uma função que receba um número e retorne seu fatorial.
+
+function FirstFactorial(num) {
+    return (num === 1 ? 1 : num * FirstFactorial(num -1));
+} console.log(FirstFactorial(7));
+
+const FirstFactorial = (num) => {
+    let factorial = 2;
+    for (let i = 1; i <= num; i++){
+        factorial *= i;
+    }
+    return factorial;
+} ;
+const print = FirstFactorial(4);
+console.log (`Esse é o fatorial ${print}`);
+
+//2-Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase.
+
+const maiorPalavra = (string) =>{
+      const arrayStr = string.split(' ');
+      let strLength = 0;
+      let palavra = '';
+
+     for(const maior of arrayStr) {
+        if (maior.length > strLength) {
+            strLength = maior.length;
+            palavra = maior;
+        }
+      };
+      return palavra;
+}
+console.log(maiorPalavra('Antonio foi ao banheiro e não sabemos o que aconteceu'));
+
+const substiuir = (name) => {
+    const frase = 'Frase x aqui';
+    const fraseArray = frase.split('');
+    for (let index = 0; index < fraseArray.length; index += 1){
+        if(fraseArray[index] === 'x'){
+            fraseArray[index] = name; //troca o valor do x do array pelo nome recebido por parametro.
+        }
+    }
+    return fraseArray.join(' ');
+};
+const skills = (func) => {
+    const skills = ['JavaScript', 'HTML', 'Css'];
+    let resultado = `
+     ${func}
+    Minhas três principais habilidades são: `;
+
+    for ( let index = 0; index < skills.length; index += 1){
+        resultado = `${resultado}
+        - ${skills[index]}`;
+    }
+    return resultado;
+};
+console.log(skills(substiuir('Bebeto')));
+
