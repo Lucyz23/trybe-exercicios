@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <tag id="text"></tag>
+    </div>
+    <button id="button">Click aqui!</button>
+</body>
+<script>
+    let clickcount = 0; //variavel que irá armazenar os clicks
+    const textDisplay = document.getElementById('text');
+    const buttonTest = document.getElementById('button');
+
+    buttonTest
+        .addEventListener('click', () => textDisplay.innerHTML = clickcount += 1); //quantidade de clicks
+
+        const substiuir = (name) => {
+            const frase = 'Frase aqui';
+            const fraseArray = frase.split('');
+            for (let index = 0; index < fraseArray.length; index += 1){
+                if(fraseArray[index] === 'x'){
+                    fraseArray[index] = name; //troca o valor do x do array pelo nome recebido por parametro.
+                }
+            }
+            return fraseArray.join(' ');
+        };
+
+        console.log(substiuir('Bebeto'));
+
+        
+</script>
+
+</html>
